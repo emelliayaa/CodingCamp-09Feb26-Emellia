@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Emellia</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo"></div>
+    <nav>
+        <a href="#home-page">Home</a>
+        <a href="#profile-page">Our Profile</a>
+        <a href="#message-us-page">Message Us</a>
+    </nav>
+</header>
+
+<main>
+
+    <!-- HOME -->
+    <section id="home-page">
+        <div class="header-home">
+            <h2 id="welcomeText">Hi</h2>
+            <p>Ini adalah website latihan pertama</p>
+        </div>
+
+        <section class="headquarter">
+            <h2>Our Headquarter</h2>
+            <div class="hq-container">
+                <div class="hq-item">
+                    <div class="circle"></div>
+                    <p>Jakarta</p>
+                </div>
+                <div class="hq-item">
+                    <div class="circle"></div>
+                    <p>Bandung</p>
+                </div>
+                <div class="hq-item">
+                    <div class="circle"></div>
+                    <p>Surabaya</p>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- PROFILE -->
+    <section id="profile-page">
+        <div class="profile-banner">
+            <h2>Our Profile</h2>
+        </div>
+
+        <div class="profile-content">
+            <h3>About The Company</h3>
+            <p>
+                Emellia Company is a digital innovation company that focuses on 
+                web development, UI/UX design, and technology solutions. 
+                We are committed to providing high-quality service and creative solutions.
+            </p>
+
+            <h3>Vision</h3>
+            <p>
+                To become a leading digital company that inspires innovation globally.
+            </p>
+
+            <h3>Mission</h3>
+            <ul>
+                <li>Deliver high quality digital services</li>
+                <li>Build long-term client relationships</li>
+                <li>Continuously innovate and improve technology</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- MESSAGE US -->
+    <section id="message-us-page">
+        <h2>Message Us</h2>
+
+        <div class="ms-container">
+
+            <form id="messageForm">
+                <div class="ms-item">
+                    <label>Nama</label>
+                    <input type="text" id="nama" placeholder="Nama anda">
+                </div>
+
+                <div class="ms-item">
+                    <label>Tanggal Lahir</label>
+                    <input type="date" id="birth">
+                </div>
+
+                <div class="ms-item">
+                    <label>Jenis Kelamin</label>
+                    <div>
+                        <input type="radio" name="gender" value="Laki-laki"> Laki-laki
+                        <input type="radio" name="gender" value="Perempuan"> Perempuan
+                    </div>
+                </div>
+
+                <div class="ms-item">
+                    <label>Pesan</label>
+                    <textarea id="message"></textarea>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <div class="result-box" id="resultBox">
+                <p>Current time : -</p>
+                <p>Nama : -</p>
+                <p>Tanggal Lahir : -</p>
+                <p>Jenis Kelamin : -</p>
+                <p>Pesan : -</p>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
